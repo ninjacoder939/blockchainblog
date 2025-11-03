@@ -1,0 +1,14 @@
+cd ~/Ninjaproject/blockchainblog
+npx create-next-app@latest blog-panel
+
+
+cd blog-panel
+
+
+touch .env.local
+
+
+NEXT_PUBLIC_API_URL=http://localhost:9000/getdata
+
+
+
